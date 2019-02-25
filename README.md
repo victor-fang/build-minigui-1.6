@@ -21,6 +21,11 @@ sudo apt-get install -y git gcc g++ binutils autoconf automake libtool make cmak
 4. Install MiniGUI resources
 
 ```
+$ tar -zxf minigui-res-1.6.10.tar.gz
+$ cd minigui-res-1.6.10
+$ sudo make install
+$ cd ..
+ 
  $ git clone https://github.com/VincentWei/minigui-res.git
  $ cd minigui-res
  $ ./augen.sh
