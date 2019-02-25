@@ -1,13 +1,9 @@
 sudo apt-get install -y git gcc g++ binutils autoconf automake libtool make cmake pkg-config libgtk2.0-dev libjpeg-dev libpng-dev libfreetype6-dev libsqlite3-dev libxml2-dev
 
-Build GVFB
+Install QVFB
 
 ```
- $ git clone https://github.com/VincentWei/gvfb.git
- $ cd gvfb
- $ cmake .
- $ make; sudo make install
- $ cd ..
+ $ sudo apt-get install qt4-dev-tools
 ```
 
 Build libminigui-2.0.4-linux
@@ -34,5 +30,6 @@ Alternately you can define RES_TOP_DIR MACRO to set custom path.
 Run mGallery
 
 ```
-$ qvfb $ cd /src $ ./startpmp
+$ qvfb
+$ cd /src $ ./startpmp
 ```
