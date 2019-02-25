@@ -1,3 +1,5 @@
+Ubuntu 12.04
+
 sudo apt-get install -y git gcc g++ binutils autoconf automake libtool make cmake pkg-config libgtk2.0-dev libjpeg-dev libpng-dev libfreetype6-dev libsqlite3-dev libxml2-dev
 
 Install QVFB
@@ -30,6 +32,6 @@ Alternately you can define RES_TOP_DIR MACRO to set custom path.
 Run mGallery
 
 ```
-$ qvfb
+$ qvfb -width 800 -height 480
 $ cd /src $ ./startpmp
 ```
