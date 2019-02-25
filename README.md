@@ -16,6 +16,7 @@ sudo apt-get install -y git gcc g++ binutils autoconf automake libtool make cmak
  $ ./configure
  $ make
  $ sudo make install
+ $ cd ..
 ```
 4. Install MiniGUI resources
 
@@ -47,6 +48,7 @@ $ sudo mkdir /media/music /media/video /media/picture /media/ebook /media/record
 Alternately you can define RES_TOP_DIR MACRO to set custom path.
 
 ```
-$ qvfb -width 640 -height 480
-$ cd /src $ ./startpmp
+$ qvfb -width 640 -height 480 &
+$ cd /src
+$ ./startpmp
 ```
