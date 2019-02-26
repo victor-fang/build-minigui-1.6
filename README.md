@@ -29,13 +29,6 @@ $ tar -zxf minigui-res-1.6.10.tar.gz
 $ cd minigui-res-1.6.10
 $ sudo make install
 $ cd ..
- 
- $ git clone https://github.com/VincentWei/minigui-res.git
- $ cd minigui-res
- $ ./augen.sh
- $ ./configure
- $ sudo make install
- $ cd ..
 ```
 
 5. Build mGallery
@@ -59,5 +52,6 @@ Alternately you can define RES_TOP_DIR MACRO to set custom path.
 ```
 $ qvfb -width 640 -height 480 &
 $ cd /src
+$ export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 $ ./startpmp
 ```
