@@ -2,7 +2,8 @@ MinuGUI 代码不支持64位运行，已在Ubuntu 12.04 x86 版本上验证
 
 1. Install toolchains
 ```
-sudo apt-get install -y git gcc g++ binutils autoconf automake libtool make cmake pkg-config libgtk2.0-dev libjpeg-dev libpng-dev libfreetype6-dev libsqlite3-dev libxml2-dev
+sudo apt-get install -y git gcc g++ binutils autoconf automake libtool make cmake \
+    pkg-config libgtk2.0-dev libjpeg-dev libpng-dev libfreetype6-dev libsqlite3-dev libxml2-dev
 ```
 
 2. Install QVFB
