@@ -12,10 +12,11 @@ sudo apt-get install -y git gcc g++ binutils autoconf automake libtool make cmak
  $ sudo apt-get install qt4-dev-tools
 ```
 
-3. Build libminigui-2.0.4-linux
+3. Build libminigui-1.6.10
 
 ```
- $ cd libminigui-2.0.4-linux
+ $ tar -zxf libminigui-1.6.10.tar.gz
+ $ cd libminigui-1.6.10
  $ ./configure
  $ make
  $ sudo make install
